@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: rgb(170, 16, 16);
+  display:flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 40px;
+  margin: 0;
+}
+nav>div{
+  /* border: 1px solid #000; */
+  width: 50%;
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0.5%;
+}
+body{
+  background: url(../public/images/blood.jpeg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.donorform{
+  background-color: rgba(223, 214, 214, 0.904);
+  color: rgb(179, 10, 10);
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: 50vh;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgb(183, 14, 14);
+  border-radius: 10px;
+  /* padding: 2% 0; */
+}
+/* form>div{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+} */
+.donorform>*{
+  width: 80%;
+  height: 40px;
+  margin: 3% auto;
+  bottom: none;
+  border-radius: 10px;
+  padding-left: 3% ;
+}
+a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: larger;
+}
+.bloodform{
+  /* border: 1px solid #000; */
+  margin-left: 50%;
+  margin-top: 10%;
+}
+.look4bloodform{
+  border: 2px solid rgb(219, 17, 17);
+  background-color: rgba(223, 214, 214, 0.904);
+  color: rgb(234, 18, 18);
+  border-radius: 15px;
+  width:30vw;
+  height: 300px;
+  margin: auto;
+  margin-top: 0%;
+}
+.look4bloodform>form{
+  width: 100%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 2%;
+}
+.look4bloodform>form>*{
+  width: 80%;
+  height: 15%;
+  border-radius: 10px;
+  margin: auto;
+  font-size: large;
+  /* border: 10px solid #000; */
+}
+h1{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+}
+.donorslist{
+  width: 50vw;
+  margin: auto;
+  margin-top: 1%;
+}
+table {
+  background-color: rgba(255, 0, 0, 0.353);
+  position: absolute;
+  top:30%;
+  left:5%;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid rgb(154, 21, 21);
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  border: 2px solid rgb(154, 21, 21);
+}
+button{
+  border: 2px solid rgb(255, 0, 0);
+}
+button:hover{
+  cursor:pointer;
+  color:red;
+}
+.homepage{
+  color:red;
+  /* border: 1px solid #000; */
+  text-align-last: left;
+  width: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.homepage>h1{
+  font-size: 90px;
+  margin: 0 0 -4% 0;
+}
+.homepage>h2{
+  font-size: 30px;
+  margin-top: 5%;
+}
+.homeBtn{
+  font-size: 16px;
+  border-radius: 30px;
+  width: 150px;
+  height: 60px;
+  color: white;
+  background: red;
+  margin-top: 3%;
+  padding: 0 25px;
+}
+.homeBtn:hover{
+  color:white;
+}
+.about{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 70vw;
+  height: 50vh;
+  border: 1px solid rgb(26, 24, 24);
+  border-radius: 10px;
+  padding: 3%;
+  margin: auto;
+  margin-top: 5%;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.866);
+  color:black;
+  text-align: center;
+}
